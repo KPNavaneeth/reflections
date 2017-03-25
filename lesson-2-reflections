@@ -1,0 +1,13 @@
+1)What happens when you initialize a repository? Why do you need to do it?
+
+A)To initialise a repository we use (git init ) and use ( git status ) to see if commits are made.
+When we initialise a repository we have a repository with empty commits . And only untracked files are present in the directory .
+
+*/To add changes to the intermediate staging area ?
+We use ( git add filename ) and use ( git status ) to see change .
+You can also remove a file from staging area using ( git reset filename ) */
+
+2)How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A)Staging area is an intermediate stage where you can add files that you woukd like to commit .
+It can be helpful if you would like to reset your changes . 
