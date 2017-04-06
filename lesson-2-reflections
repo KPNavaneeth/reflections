@@ -11,3 +11,27 @@ You can also remove a file from staging area using ( git reset filename ) */
 
 A)Staging area is an intermediate stage where you can add files that you woukd like to commit .
 It can be helpful if you would like to reset your changes . 
+
+3)How can you use the staging area to make sure you have one commit per logical change?
+A)We can make a change and use (git diff) to check the diff between working directory and staging area.
+This will show the changes and we can know the logical changes made . If it is one logical change we can add to staging area and then 
+commit it.
+
+*/ (git diff --staged) - Compares staging area with commit 
+*/ (git diff commit1 commit2) - Compares two commits
+
+4)What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A)When we want to create a new version of the existing file then we create a new branch . 
+
+*/ ( git log --graph --oneline master anybranch ) */
+
+5)How do the diagrams help you visualize the branch structure?
+A)This can help us visualise how the branches are related and how can they be connected.  
+
+6)What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A)This can help give a file that consists both the properties of the merged files.
+
+*/ ( git merge branch1 branch 2 )
+*/ ( git branch -d branchname ) - To delete a branch
+
+
